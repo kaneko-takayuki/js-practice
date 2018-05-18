@@ -14,3 +14,6 @@
   - 開発環境でのライブラリセットアップ: `NODE_ENV=development npm install`
   - 本番環境でのライブラリセットアップ: `NODE_ENV=production npm install`
   - 本番環境でセットアップすると、immutableとlodashのみインストールされる
+
+- Problem4
+  - lodash削除: `npm uninstall lodash`

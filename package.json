@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "immutable": "^3.8.2",
-    "lodash": "^4.17.10"
+    "immutable": "^3.8.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
