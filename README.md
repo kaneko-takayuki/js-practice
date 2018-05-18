@@ -57,3 +57,7 @@
     │ │ ├─┬ gulplog@1.0.0
     │ │ ├─┬ has-gulplog@0.1.0
     ```
+
+- Problem8
+  - _.timersで`[0, 1, ..., 9]`のリストを生成し、それを用いて1〜10の数字を標準出力する
+  - package.jsonのscriptsに`"main": "node main.js"`を指定しておくと、`npm run main`を叩いた時に`node main.js`が走るようになる
