@@ -39,3 +39,9 @@
     - `npm uninstall --save-dev gulp`
     - `npm install gulp --save-dev --save-exact`
     - package.json内に`"gulp": "3.9.1"`と表示されている(`^`も`~`も付いていないので、バージョンの固定化に成功)
+
+- Problem6
+  - lodashのバージョン3.10.1をインストール(5/18時点での最新は4.17.10)
+  - ライブラリのバージョンの指定は、`npm install {ライブラリ名}@{バージョン}`で指定可能
+  - lodashを3.10.1でインストールし、更にバージョンを固定には、`npm install lodash@3.10.1 --save-exact`を叩く
+  - package.json内に`"lodash": "3.10.1"`と記述されているのを確認(バージョン3.10.1がインストールされた)
