@@ -61,4 +61,4 @@
 
 - Problem8(v1.8)
   - _.timersで`[0, 1, ..., 9]`のリストを生成し、それを用いて1〜10の数字を標準出力する
-  - package.jsonのscriptsに`"main": "node main.js"`を指定しておくと、`npm run main`を叩いた時に`node main.js`が走るようになる
+  - package.jsonのscriptsに`"main": "node main.js" | grep '1'`を指定しておくと、`npm run main`を叩いた時に`node main.js`が走り、grepによって'1'が含まれている行だけが出力される
