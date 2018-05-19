@@ -4,7 +4,7 @@
   "description": "jsの練習用",
   "main": "index.js",
   "scripts": {
-    "main": "node main.js",
+    "main": "node main.js | grep '1'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
